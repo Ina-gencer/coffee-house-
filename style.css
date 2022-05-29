@@ -1,0 +1,359 @@
+#myVideo {
+    width: 100%;
+}
+body {
+    margin: 0;
+    background-color: #515E63;
+}
+.head {
+    color: #1E212D ;
+    text-shadow: 2px -3px 10px white;
+    font-size: 60px;
+    font-family: 'Cormorant SC', serif;
+}
+.head:hover {
+    color: #8dabb6;
+    text-shadow: 5px -5px 10px #1E212D;
+}
+
+.navigat {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color:  #1E212D;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+.padding {
+    padding: 10px 30px;
+    color: #FAF3E0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.padding:hover {
+    color: #8dabb6;
+}
+
+.top {
+    flex: 1;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.cupofcoffe {
+    width: 300px;
+    height: 300px;
+}
+
+.about {
+    font-size: 20px;
+    color: #FAF3E0;
+    font-family: 'Roboto Slab', serif;
+    width: 500px;
+    align-self: center;
+}
+
+
+.sale {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+} 
+
+.day {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: #1E212D ;
+    text-shadow: 2px -2px 5px white;
+}
+.day:hover {
+    color: #8dabb6;
+    text-shadow: 5px -5px 10px #1E212D;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+.latte {
+    width: 350px;
+    height: 300px;
+}
+
+.part {
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #B4846C;
+}
+
+.espresso {
+    width: 350px;
+    height: 300px;
+}
+.price {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    align-self: center;
+    
+}
+.name {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    align-self: center;
+    color: #1E212D;
+}
+.name:hover {
+    color: #515E63;
+}
+ins {
+    transform: rotate(10deg);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color: #1E212D;
+}
+del {
+    color: #515E63;
+    font-style: italic;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #493323;
+}
+
+.btn {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #1E212D;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #E5B299;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.btn:hover {
+    background: #515E63;
+    color: #FAF3E0;
+}
+ul {
+    margin-bottom: 10px;
+}
+.bottom {
+    margin-top: 40px;
+}
+
+.bttm {
+    margin-top: 30px;
+}
+
+.zz {
+    margin-top: 15px;
+}
+.knopka {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.contact {
+    font-size: 30px;
+    color: #1E212D;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px -3px 10px white;
+}
+.contact:hover {
+    color: #8dabb6;
+    text-shadow: 5px -5px 10px #1E212D;
+}
+
+.finish {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.all {
+    list-style: none;
+    color: #E5B299;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+.mail {
+    color: #E5B299;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.mail:hover {
+    color: #E5B299;
+}
+.item {
+    font-size: 25px;
+    color: #E5B299;
+}
+.overline {
+    text-decoration: overline;
+}
+.son {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.boxtwo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.urapoluchilos {
+    padding: 5px 20px;
+}
+.qqq {
+    filter: grayscale(100%);
+}
+.cocium {
+    font-size: 20px;
+    color: #121938;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: overline;
+    }
+
+.boxthree {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    }
+.myinfo {
+    color: #2f3344;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    }
+
+@media all and (max-width:800px) {
+    .navigat {
+        display: flex;
+        justify-content: flex-start;
+        padding: 2px 3px;
+    }
+    .padding {
+        padding: 1px 33px;
+        font-size: 15px;
+    }
+    .head {
+        font-size: 40px;
+    }
+    .top {
+        flex: none;
+    }
+    .part {
+        margin-bottom: 20px;
+    }
+    body {
+        background-color: #5F7A61;
+    }
+    
+}
+
+@media all and (max-width:500px) {
+    .navigat {
+        display: flex;
+        justify-content: flex-start;
+        padding: 5px 2px;
+    }
+    .padding {
+        padding: 5px 30px;
+        font-size: 10px;
+    }
+    .top{
+        margin-right: 20px;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+    }
+    .head {
+        font-size: 27px;
+    }
+    .day {
+        font-size: 20px;
+    }
+   
+    .about {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+    .part {
+        margin-bottom: 30px;
+    }
+    .latte {
+        width: 100%;
+        height: auto;
+    }
+    .price {
+        font-size: 20px;
+    }
+    .espresso {
+        width: 100%;
+        height: auto;
+    }
+    .vafle {
+        width: 100%;
+        height: auto;
+    }
+    .name {
+        font-size: 20px;
+    }
+    li {
+        font-size: 15px;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    .ovsyanka {
+        width: 100%;
+        height: auto;
+    }
+    .myinfo {
+        font-size: 10px;
+    }
+    body {
+        background-color: #716F81;
+    }
+}

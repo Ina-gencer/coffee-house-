@@ -1,0 +1,291 @@
+body {
+    background-image: url(dessert.jpg);
+    background-size: cover;
+    margin: 0;
+}
+.navigat {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #1E212D;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    font-family: 'STIX Two Text', serif;
+}
+
+.new {
+    padding: 10px 30px;
+    color: #FAF3E0;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'STIX Two Text', serif;
+}
+
+.new:hover {
+    color: blueviolet;
+}
+
+.big {
+    background-color: #FFA0A0;
+    margin: 120px 50px 15px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #f88282;
+}
+
+h1 {
+    color: #262A53;
+    font-family: 'STIX Two Text', serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+h1:hover {
+    color: #FAF3E0;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+      background-color: #FFE3E3;
+  }
+  
+  .icecream {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: flex-start;
+  }
+
+  h3 {
+    font-family: 'STIX Two Text', serif;
+    color:#595c81;
+    font-size: 25px;
+  }
+
+  h3:hover {
+      color:#6A097D ;
+      text-decoration: overline;
+     
+  }
+  table {
+      border: rgb(255, 126, 165) 1px solid;
+      margin: 5px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+  }
+  tr, td {
+      width: 100%;
+      height: auto;
+      padding: 10px 20px;
+      margin-left: 20px;
+      font-size: 23px;
+      color: #262A53;
+      font-family: 'STIX Two Text', serif;
+  }
+  tr:hover {
+      color :#628395;
+      cursor: pointer;
+  }
+  td:hover {
+    color :#628395;
+    cursor: pointer;
+  }
+
+  .conteiner {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      
+  }
+  .one {
+      width: 400px;
+      height: 580px;
+      margin-right: 50px;
+  }
+
+  .imgtwo {
+      width: 430px;
+      margin-left: 50px;
+      margin-right: 40px;
+  }
+
+  .left {
+    align-self: flex-start;
+  }
+
+  .thank {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: flex-start;
+  }
+
+  .footer {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-content: flex-start;
+  }
+
+  .myinfo {
+      color: cornsilk;
+      font-size: 15px;
+      font-style: italic;
+      font-family: 'STIX Two Text', serif;
+  }
+  .padd {
+      padding-right: 20px;
+      padding-left: 30px;
+  }
+
+ 
+  @media all and (max-width:800px) {
+    .navigat {
+        padding:  3px 0px;
+    }
+    .new {
+        padding: 0px 2px;
+        font-size: 18px;
+    }
+    .big {
+        background-color: #a0f4ff;
+        margin-top: 50px;
+        width: 100%px;
+        height: auto;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .one {
+        width: 100%;
+        height: auto;
+        
+    }
+    .imgtwo {
+        width: 100%;
+        height: auto;
+        margin:0px ;
+    }
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    td,th {
+        font-size: 20px;
+    }
+      
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 1px;
+        margin-top: 30px;
+        transition: all 0.2s ease;
+        color: white;
+        font-size: 2px;
+      }
+      .reverse {
+          display: flex;
+          flex-direction: column-reverse;
+      }
+      .left {
+          border: none;
+      }
+      table {
+        border: none;
+        margin: 2px 10px;
+    }
+    .heading {
+        background-color: teal;
+    }
+  }
+     
+
+  @media all and (max-width:500px) {
+    .navigat {
+          padding: 7px 1px;
+    }
+    .new {
+        font-size: 12px;
+        padding: 5px 1px;
+    }
+    .one {
+        width: 100%;
+        height: auto;
+    }
+    table {
+        border: none;
+        margin: 1px 1px;
+       
+    }
+    tr, td {
+        width: 100%;
+        height: auto;
+        padding: 5px 8px;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    
+.big {
+    background-color: #dd93d3;
+    margin-top: 60px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+.heading {
+    background-color: rgb(146, 89, 238);
+}
+h3 {
+    font-size: 18px;
+    margin-top: 1px;
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin-top: 30px;
+    transition: all 0.2s ease;
+    color: white;
+    font-size: 1px;
+  }
+h1 {
+    font-size:20px ;
+    margin-top: 2px;
+}
+.myinfo {
+    font-size: 10px;
+}
+  }
+  
+ 

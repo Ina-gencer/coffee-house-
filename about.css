@@ -1,0 +1,145 @@
+#myVideo {
+    width: 100%;
+}
+body {
+    margin: 0;
+    background-color: #F3BDA1;
+}
+
+.navigat {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #7D5A50;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.padding {
+    padding: 10px 30px;
+    color: #FAF3E0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.padding:hover {
+    color: #92d6ec;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #02475E;
+    text-shadow: 1px -1px 4px white;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.one {
+    width: 400px;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    color: #02475E;
+    font-size: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-size: 17px;
+    color: #7D5A50;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    padding: 2px;
+}
+.mail {
+    list-style: none;
+    color: #7D5A50;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.myinfo {
+    color: #2f3344;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+
+@media all and (max-width:800px) {
+    .navigat {
+        padding: 0px 8px;
+    }
+    body {
+        background-color: #aee2f3;
+    }
+}
+    
+
+@media all and (max-width:500px) {
+    .navigat {
+        padding: 0px;
+    }
+    body {
+        background-color: #FCDEC0;
+    }
+    .padding {
+        padding: 2px 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .top {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .one {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myinfo {
+        font-size: 12px;
+    }
+}
+   
+
+

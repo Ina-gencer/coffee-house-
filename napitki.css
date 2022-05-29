@@ -1,0 +1,157 @@
+.navigat {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    background-color:#1e212d ;
+    position: fixed;
+    margin: 0;
+    top: o;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.new {
+    padding: 10px 20px;
+    color: #FAF3E0;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.new:hover {
+    color: blueviolet;
+}
+
+#myVideo {
+    width: 100%;
+}
+body {
+    margin: 0;
+    background-color: #476072;
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.head {
+    font-size: 25px;
+    color: #1E212D ;
+    text-shadow: 2px -3px 10px white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head:hover {
+    color: #8dabb6;
+    text-shadow: 5px -5px 10px #1E212D;
+}
+
+.table {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+ }
+
+.top, th {
+    border: 1px solid gray;
+    font-size: 20px;
+    color: #1E212D;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    width: 100vh;
+    padding: 5px 10px;
+}
+
+.top:hover {
+    color: #8dabb6;
+}
+.top {
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.price:hover {
+    color: #8dabb6;
+}
+
+.ml {
+    font-size: 17px;
+    padding-top: 8px;
+    margin-left: 10px;
+    color: #1E212D;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.thank {
+    font-size: 20px;
+    color:#8dabb6 ;
+}
+.thank:hover {
+    color: #1E212D;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.myinfo {
+    color: #2f3344;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+
+@media all and (width:800px) {
+    .navigat {
+        padding:1px;
+        
+    }
+    .new {
+        padding: 1px 2px;
+        font-size: 10px;
+    }
+   
+}
+   
+  
+
+@media all and (width:500px) {
+    .navigat {
+        padding:  1px;
+        
+    }
+    .new {
+        padding: 1px 2px;
+        font-size: 8px;
+    }
+    .myinfo {
+        font-size: 8px;
+    }
+}
+    
+   
+    
+
+
+
+
